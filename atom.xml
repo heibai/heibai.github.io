@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="heibaiaz.cn/"/>
   <updated>2018-04-11T14:21:19.790Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>heibaiaz.cn/</id>
   
   <author>
     <name>heibai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World!</title>
-    <link href="http://yoursite.com/2018/04/11/Hello-World-0/"/>
-    <id>http://yoursite.com/2018/04/11/Hello-World-0/</id>
+    <link href="heibaiaz.cn/2018/04/11/Hello-World-0/"/>
+    <id>heibaiaz.cn/2018/04/11/Hello-World-0/</id>
     <published>2018-04-11T14:21:19.000Z</published>
     <updated>2018-04-11T14:21:19.790Z</updated>
     
