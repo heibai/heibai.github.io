@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>同步Android源码清除缓存</title>
+      <link href="/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
+      <url>/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/</url>
+      <content type="html"><![CDATA[<p>同步Android源码清除缓存：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find .repo/ -name <span class="string">"*tmp_pack*"</span> | xargs rm -rvf</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Windows 修改远程端口号</title>
       <link href="/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
       <url>/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/</url>
