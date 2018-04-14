@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="heibaiaz.cn/"/>
-  <updated>2018-04-14T02:34:58.714Z</updated>
+  <updated>2018-04-14T02:50:43.968Z</updated>
   <id>heibaiaz.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows 修改远程端口号</title>
+    <link href="heibaiaz.cn/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+    <id>heibaiaz.cn/2018/04/14/Windows-修改远程端口号/</id>
+    <published>2018-04-14T02:47:58.000Z</published>
+    <updated>2018-04-14T02:50:43.968Z</updated>
+    
+    <content type="html"><![CDATA[<p>Win+R 运行regedit(注册表)<br>点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Win+R 运行regedit(注册表)&lt;br&gt;点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Linux防火墙</title>

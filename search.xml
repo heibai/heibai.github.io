@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Windows 修改远程端口号</title>
+      <link href="/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+      <url>/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/</url>
+      <content type="html"><![CDATA[<p>Win+R 运行regedit(注册表)<br>点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Linux防火墙</title>
       <link href="/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
       <url>/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/</url>
