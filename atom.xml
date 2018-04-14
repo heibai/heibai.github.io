@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="heibaiaz.cn/"/>
-  <updated>2018-04-14T03:05:14.363Z</updated>
+  <updated>2018-04-14T00:22:16.108Z</updated>
   <id>heibaiaz.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="heibaiaz.cn/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
     <id>heibaiaz.cn/2018/04/14/同步Android源码清除缓存/</id>
     <published>2018-04-14T03:03:58.000Z</published>
-    <updated>2018-04-14T03:05:14.363Z</updated>
+    <updated>2018-04-14T00:22:16.108Z</updated>
     
     <content type="html"><![CDATA[<p>同步Android源码清除缓存：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find .repo/ -name <span class="string">"*tmp_pack*"</span> | xargs rm -rvf</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -35,6 +35,8 @@
     </summary>
     
     
+      <category term="Android" scheme="heibaiaz.cn/tags/Android/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +44,7 @@
     <link href="heibaiaz.cn/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
     <id>heibaiaz.cn/2018/04/14/Windows-修改远程端口号/</id>
     <published>2018-04-14T02:47:58.000Z</published>
-    <updated>2018-04-14T02:50:43.968Z</updated>
+    <updated>2018-04-14T00:22:28.479Z</updated>
     
     <content type="html"><![CDATA[<p>Win+R 运行regedit(注册表)<br>点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)</p>]]></content>
     
@@ -56,6 +58,8 @@
     </summary>
     
     
+      <category term="Windows" scheme="heibaiaz.cn/tags/Windows/"/>
+    
   </entry>
   
   <entry>
@@ -63,7 +67,7 @@
     <link href="heibaiaz.cn/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
     <id>heibaiaz.cn/2018/04/14/Linux防火墙/</id>
     <published>2018-04-14T02:05:39.000Z</published>
-    <updated>2018-04-14T02:34:58.714Z</updated>
+    <updated>2018-04-14T00:21:59.955Z</updated>
     
     <content type="html"><![CDATA[<p>centos7<br>1.通过防火墙<br>80端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></p><p>443端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=443/tcp --permanent</span><br></pre></td></tr></table></figure></p><p>重启防火墙<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure></p><p>centos6<br>查询防火墙状态:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables status</span><br></pre></td></tr></table></figure></p><p>停止防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables stop</span><br></pre></td></tr></table></figure></p><p>启动防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables start</span><br></pre></td></tr></table></figure></p><p>重启防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables restart</span><br></pre></td></tr></table></figure></p><p>永久关闭防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables off</span><br></pre></td></tr></table></figure></p><p>永久关闭后启用:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables on</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -76,6 +80,8 @@
     
     </summary>
     
+    
+      <category term="Linux" scheme="heibaiaz.cn/tags/Linux/"/>
     
   </entry>
   
