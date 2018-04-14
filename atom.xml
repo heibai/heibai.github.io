@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="heibaiaz.cn/"/>
-  <updated>2018-04-14T02:15:26.663Z</updated>
+  <updated>2018-04-14T02:34:58.714Z</updated>
   <id>heibaiaz.cn/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="heibaiaz.cn/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
     <id>heibaiaz.cn/2018/04/14/Linux防火墙/</id>
     <published>2018-04-14T02:05:39.000Z</published>
-    <updated>2018-04-14T02:15:26.663Z</updated>
+    <updated>2018-04-14T02:34:58.714Z</updated>
     
-    <content type="html"><![CDATA[<p>centos7<br>1.通过防火墙<br>80端口<br>firewall-cmd –zone=public –add-port=80/tcp –permanent<br>443端口<br>firewall-cmd –zone=public –add-port=443/tcp –permanent<br>重启防火墙<br>systemctl restart firewalld.service<br>centos6<br>查询防火墙状态:<br>service   iptables status<br>停止防火墙:<br>service   iptables stop<br>启动防火墙:<br>service   iptables start<br>重启防火墙:<br>service   iptables restart<br>永久关闭防火墙:<br>chkconfig   iptables off<br>永久关闭后启用:<br>chkconfig   iptables on</p>]]></content>
+    <content type="html"><![CDATA[<p>centos7<br>1.通过防火墙<br>80端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></p><p>443端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=443/tcp --permanent</span><br></pre></td></tr></table></figure></p><p>重启防火墙<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure></p><p>centos6<br>查询防火墙状态:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables status</span><br></pre></td></tr></table></figure></p><p>停止防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables stop</span><br></pre></td></tr></table></figure></p><p>启动防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables start</span><br></pre></td></tr></table></figure></p><p>重启防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables restart</span><br></pre></td></tr></table></figure></p><p>永久关闭防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables off</span><br></pre></td></tr></table></figure></p><p>永久关闭后启用:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables on</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;centos7&lt;br&gt;1.通过防火墙&lt;br&gt;80端口&lt;br&gt;firewall-cmd –zone=public –add-port=80/tcp –permanent&lt;br&gt;443端口&lt;br&gt;firewall-cmd –zone=public –add-port=443/t
+        &lt;p&gt;centos7&lt;br&gt;1.通过防火墙&lt;br&gt;80端口&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td
       
     
     </summary>
