@@ -584,18 +584,15 @@
 
       
         
-          
-            <p>centos7<br>1.通过防火墙<br>80端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></p>
+          <p>centos7<br>1.通过防火墙<br>80端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></p>
 <p>443端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=443/tcp --permanent</span><br></pre></td></tr></table></figure></p>
-<p>重启防火墙<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure></p>
-<p>centos6<br>查询防火墙状态:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables status</span><br></pre></td></tr></table></figure></p>
-<p>停止防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables stop</span><br></pre></td></tr></table></figure></p>
-<p>启动防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables start</span><br></pre></td></tr></table></figure></p>
-<p>重启防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service   iptables restart</span><br></pre></td></tr></table></figure></p>
-<p>永久关闭防火墙:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables off</span><br></pre></td></tr></table></figure></p>
-<p>永久关闭后启用:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig   iptables on</span><br></pre></td></tr></table></figure></p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/04/14/Linux防火墙/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
