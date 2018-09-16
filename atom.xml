@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="heibaiaz.cn/"/>
-  <updated>2018-09-16T02:26:23.821Z</updated>
+  <updated>2018-09-16T02:33:11.118Z</updated>
   <id>heibaiaz.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="heibaiaz.cn/2018/09/16/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AF%8F%E5%A4%A9%E5%AE%9A%E6%97%B6%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD/"/>
     <id>heibaiaz.cn/2018/09/16/MySql数据库每天定时自动备份/</id>
     <published>2018-09-16T02:03:08.000Z</published>
-    <updated>2018-09-16T02:26:23.821Z</updated>
+    <updated>2018-09-16T02:33:11.118Z</updated>
     
     <content type="html"><![CDATA[<p>创建备份目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mysqlbackup</span><br><span class="line"><span class="built_in">cd</span> /mysqlbackup</span><br></pre></td></tr></table></figure><p>编写shell脚本</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vi backup.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">dd=$(date +"%Y-%m-%d")</span><br><span class="line">usr/local/mysql/bin/mysqldump -uusername -ppassword databasename &gt;/mysqlbackup/$dd-databasename.sql;</span><br></pre></td></tr></table></figure><a id="more"></a><p>注意：</p><p>1.mysqldump路径需要写绝对路径，直接执行命令，备份能够成功，但是脚本里面不写绝对路径，备份出来的会是空文件；</p><p>2.username替换为用户名，一般为root；</p><p>3.password为密码；</p><p>4.databasename为要备份的数据库名称。</p><p>添加执行权限</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 backup.sh</span><br></pre></td></tr></table></figure><p>定时任务</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br><span class="line">0 5 * * * /backup.sh</span><br></pre></td></tr></table></figure><p>表示每天凌晨5点自动执行这个脚本，完成备份。</p>]]></content>
     
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="Linux" scheme="heibaiaz.cn/tags/Linux/"/>
+      <category term="MySql" scheme="heibaiaz.cn/tags/MySql/"/>
     
   </entry>
   
