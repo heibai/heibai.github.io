@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="heibaiaz.cn/"/>
-  <updated>2018-09-16T07:26:53.845Z</updated>
+  <updated>2018-09-16T14:34:08.841Z</updated>
   <id>heibaiaz.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="heibaiaz.cn/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/"/>
     <id>heibaiaz.cn/2018/09/16/MySql保留最近5天备份/</id>
     <published>2018-09-16T07:15:43.000Z</published>
-    <updated>2018-09-16T07:26:53.845Z</updated>
+    <updated>2018-09-16T14:34:08.841Z</updated>
     
-    <content type="html"><![CDATA[<p>进入备份目录</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure><p>编写shell脚本</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure><a id="more"></a><p>删除该目录下5天以前的以sql后缀结尾的文件</p><p>添加执行权限</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 clean.sh</span><br></pre></td></tr></table></figure><p>定时任务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0 6 * * * /backup.sh</span><br></pre></td></tr></table></figure><p>每天凌晨6点执行一次</p>]]></content>
+    <content type="html"><![CDATA[<p>进入备份目录</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure><p>编写shell脚本</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure><a id="more"></a><p>删除该目录下5天以前的以sql后缀结尾的文件</p><p>添加执行权限</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 clean.sh</span><br></pre></td></tr></table></figure><p>定时任务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br><span class="line">0 6 * * * /backup.sh</span><br></pre></td></tr></table></figure><p>每天凌晨6点执行一次</p>]]></content>
     
     <summary type="html">
     
