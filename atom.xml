@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="heibaiaz.cn/"/>
+  <link href="heibai.site/"/>
   <updated>2018-09-16T14:34:08.841Z</updated>
-  <id>heibaiaz.cn/</id>
+  <id>heibai.site/</id>
   
   <author>
     <name>heibai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>MySql保留最近5天备份</title>
-    <link href="heibaiaz.cn/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/"/>
-    <id>heibaiaz.cn/2018/09/16/MySql保留最近5天备份/</id>
+    <link href="heibai.site/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/"/>
+    <id>heibai.site/2018/09/16/MySql保留最近5天备份/</id>
     <published>2018-09-16T07:15:43.000Z</published>
     <updated>2018-09-16T14:34:08.841Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="MySql" scheme="heibaiaz.cn/tags/MySql/"/>
+      <category term="MySql" scheme="heibai.site/tags/MySql/"/>
     
   </entry>
   
   <entry>
     <title>MySql数据库每天定时自动备份</title>
-    <link href="heibaiaz.cn/2018/09/16/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AF%8F%E5%A4%A9%E5%AE%9A%E6%97%B6%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD/"/>
-    <id>heibaiaz.cn/2018/09/16/MySql数据库每天定时自动备份/</id>
+    <link href="heibai.site/2018/09/16/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AF%8F%E5%A4%A9%E5%AE%9A%E6%97%B6%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD/"/>
+    <id>heibai.site/2018/09/16/MySql数据库每天定时自动备份/</id>
     <published>2018-09-16T02:03:08.000Z</published>
     <updated>2018-09-16T02:33:11.118Z</updated>
     
@@ -58,14 +58,14 @@
     </summary>
     
     
-      <category term="MySql" scheme="heibaiaz.cn/tags/MySql/"/>
+      <category term="MySql" scheme="heibai.site/tags/MySql/"/>
     
   </entry>
   
   <entry>
     <title>同步Android源码清除缓存</title>
-    <link href="heibaiaz.cn/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
-    <id>heibaiaz.cn/2018/04/14/同步Android源码清除缓存/</id>
+    <link href="heibai.site/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
+    <id>heibai.site/2018/04/14/同步Android源码清除缓存/</id>
     <published>2018-04-14T03:03:58.000Z</published>
     <updated>2018-04-14T00:22:16.108Z</updated>
     
@@ -81,14 +81,14 @@
     </summary>
     
     
-      <category term="Android" scheme="heibaiaz.cn/tags/Android/"/>
+      <category term="Android" scheme="heibai.site/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Windows 修改远程端口号</title>
-    <link href="heibaiaz.cn/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
-    <id>heibaiaz.cn/2018/04/14/Windows-修改远程端口号/</id>
+    <link href="heibai.site/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+    <id>heibai.site/2018/04/14/Windows-修改远程端口号/</id>
     <published>2018-04-14T02:47:58.000Z</published>
     <updated>2018-04-14T00:22:28.479Z</updated>
     
@@ -104,14 +104,14 @@
     </summary>
     
     
-      <category term="Windows" scheme="heibaiaz.cn/tags/Windows/"/>
+      <category term="Windows" scheme="heibai.site/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>Linux防火墙</title>
-    <link href="heibaiaz.cn/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
-    <id>heibaiaz.cn/2018/04/14/Linux防火墙/</id>
+    <link href="heibai.site/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    <id>heibai.site/2018/04/14/Linux防火墙/</id>
     <published>2018-04-14T02:05:39.000Z</published>
     <updated>2018-04-14T17:07:10.881Z</updated>
     
@@ -125,14 +125,14 @@
     </summary>
     
     
-      <category term="Linux" scheme="heibaiaz.cn/tags/Linux/"/>
+      <category term="Linux" scheme="heibai.site/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Hello World!</title>
-    <link href="heibaiaz.cn/2018/04/11/Hello-World-0/"/>
-    <id>heibaiaz.cn/2018/04/11/Hello-World-0/</id>
+    <link href="heibai.site/2018/04/11/Hello-World-0/"/>
+    <id>heibai.site/2018/04/11/Hello-World-0/</id>
     <published>2018-04-11T14:21:19.000Z</published>
     <updated>2018-04-11T14:21:19.790Z</updated>
     

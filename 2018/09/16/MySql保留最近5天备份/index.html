@@ -65,6 +65,10 @@
   <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
+  <link rel="manifest" href="/images/manifest.json">
+
+
+  <meta name="msapplication-config" content="/images/browserconfig.xml" />
 
 
 
@@ -85,7 +89,7 @@
 <meta name="keywords" content="MySql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MySql保留最近5天备份">
-<meta property="og:url" content="heibaiaz.cn/2018/09/16/MySql保留最近5天备份/index.html">
+<meta property="og:url" content="heibai.site/2018/09/16/MySql保留最近5天备份/index.html">
 <meta property="og:site_name" content="heibai&#39;s Blog">
 <meta property="og:description" content="进入备份目录 1cd /mysqlbackup 编写shell脚本 123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
 <meta property="og:locale" content="zh-Hans">
@@ -122,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="heibaiaz.cn/2018/09/16/MySql保留最近5天备份/"/>
+  <link rel="canonical" href="heibai.site/2018/09/16/MySql保留最近5天备份/"/>
 
 
 
@@ -163,7 +167,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description"></h1>
       
   </div>
 
@@ -242,6 +246,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
 
       
     </ul>
@@ -275,7 +289,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="heibaiaz.cn/2018/09/16/MySql保留最近5天备份/">
+    <link itemprop="mainEntityOfPage" href="heibai.site/2018/09/16/MySql保留最近5天备份/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="heibai">
@@ -292,7 +306,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">MySql保留最近5天备份</h1>
+          <h2 class="post-title" itemprop="name headline">MySql保留最近5天备份</h2>
         
 
         <div class="post-meta">
@@ -323,6 +337,11 @@
           
           
 
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
           
 
           
@@ -366,24 +385,29 @@
 
     
       <div>
-        
-          <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">
-            -------------本文结束
-            <i class="fa fa-paw"></i>
-            感谢您的阅读-------------
-        </div>
-    
-</div>
-        
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    heibai
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="heibai.site/2018/09/16/MySql保留最近5天备份/" title="MySql保留最近5天备份">heibai.site/2018/09/16/MySql保留最近5天备份/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
       </div>
-	  
+    
+
     <footer class="post-footer">
       
         <div class="post-tags">
           
-            <a href="/tags/MySql/" rel="tag"><i class="fa fa-tag"></i> MySql</a>
+            <a href="/tags/MySql/" rel="tag"># MySql</a>
           
         </div>
       
@@ -462,7 +486,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">heibai</p>
-              <p class="site-description motion-element" itemprop="description">选择比努力更重要！</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -545,8 +569,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -556,24 +579,36 @@
 </div>
 
 
-  <div class="powered-by">
-  <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -752,8 +787,6 @@
   
 
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 </body>
 </html>
