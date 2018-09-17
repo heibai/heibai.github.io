@@ -339,7 +339,7 @@
 
           
             <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="page-pv"><i class="fa fa-file-o">本文阅读</i>
             <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
             </span>
           
@@ -364,7 +364,7 @@
         <p>进入备份目录</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure>
 <p>编写shell脚本</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span>!/bin/bash</span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <p>删除该目录下5天以前的以sql后缀结尾的文件</p>
 <p>添加执行权限</p>
@@ -594,7 +594,7 @@
 
   
     <span class="site-uv">
-      <i class="fa fa-user"></i>
+      <i class="fa fa-user">本站总访客数</i>
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
       
     </span>
@@ -602,7 +602,7 @@
 
   
     <span class="site-pv">
-      <i class="fa fa-eye"></i>
+      <i class="fa fa-eye">本站总访问量</i>
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
       
     </span>
