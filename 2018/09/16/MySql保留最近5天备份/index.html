@@ -85,18 +85,18 @@
 
 
 
-<meta name="description" content="进入备份目录 1cd /mysqlbackup 编写shell脚本 123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
+<meta name="description" content="进入备份目录1cd /mysqlbackup 编写shell脚本123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
 <meta name="keywords" content="MySql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MySql保留最近5天备份">
 <meta property="og:url" content="heibai.site/2018/09/16/MySql保留最近5天备份/index.html">
 <meta property="og:site_name" content="Heibai&#39;s Blog">
-<meta property="og:description" content="进入备份目录 1cd /mysqlbackup 编写shell脚本 123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
+<meta property="og:description" content="进入备份目录1cd /mysqlbackup 编写shell脚本123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-18T06:36:16.500Z">
+<meta property="og:updated_time" content="2018-12-03T15:54:27.130Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySql保留最近5天备份">
-<meta name="twitter:description" content="进入备份目录 1cd /mysqlbackup 编写shell脚本 123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
+<meta name="twitter:description" content="进入备份目录1cd /mysqlbackup 编写shell脚本123vi clean.sh#!/bin/bashfind /mysqlbackup  -mtime +4  -name &quot;*.sql&quot; -exec rm -rf &amp;#123;&amp;#125; \;">
 
 
 
@@ -429,7 +429,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  76
+                  75
                 </span>
               
 
@@ -466,16 +466,12 @@
       
 
       
-        <p>进入备份目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure>
-<p>编写shell脚本</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span>!/bin/bash</span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+        <h4 id="进入备份目录"><a href="#进入备份目录" class="headerlink" title="进入备份目录"></a>进入备份目录</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure>
+<h4 id="编写shell脚本"><a href="#编写shell脚本" class="headerlink" title="编写shell脚本"></a>编写shell脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <p>删除该目录下5天以前的以sql后缀结尾的文件</p>
-<p>添加执行权限</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 clean.sh</span><br></pre></td></tr></table></figure>
-<p>定时任务</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br><span class="line">0 6 * * * /backup.sh</span><br></pre></td></tr></table></figure>
+<h4 id="添加执行权限"><a href="#添加执行权限" class="headerlink" title="添加执行权限"></a>添加执行权限</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 clean.sh</span><br></pre></td></tr></table></figure>
+<h4 id="定时任务"><a href="#定时任务" class="headerlink" title="定时任务"></a>定时任务</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br><span class="line">0 6 * * * /backup.sh</span><br></pre></td></tr></table></figure>
 <p>每天凌晨6点执行一次</p>
 
       
@@ -592,8 +588,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -677,6 +682,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#进入备份目录"><span class="nav-number">1.</span> <span class="nav-text">进入备份目录</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#编写shell脚本"><span class="nav-number">2.</span> <span class="nav-text">编写shell脚本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#添加执行权限"><span class="nav-number">3.</span> <span class="nav-text">添加执行权限</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#定时任务"><span class="nav-number">4.</span> <span class="nav-text">定时任务</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -704,7 +725,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">364</span>
+    <span title="Site words total count">365</span>
   
 </div>
 

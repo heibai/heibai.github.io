@@ -415,7 +415,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  76
+                  75
                 </span>
               
 
@@ -453,10 +453,8 @@
 
       
         
-          <p>进入备份目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure>
-<p>编写shell脚本</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span>!/bin/bash</span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+          <h4 id="进入备份目录"><a href="#进入备份目录" class="headerlink" title="进入备份目录"></a>进入备份目录</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mysqlbackup</span><br></pre></td></tr></table></figure>
+<h4 id="编写shell脚本"><a href="#编写shell脚本" class="headerlink" title="编写shell脚本"></a>编写shell脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vi clean.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">find /mysqlbackup  -mtime +4  -name "*.sql" -exec rm -rf &#123;&#125; \;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/09/16/MySql保留最近5天备份/#more" rel="contents">
@@ -595,7 +593,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  151
+                  150
                 </span>
               
 
@@ -633,10 +631,8 @@
 
       
         
-          <p>创建备份目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mysqlbackup</span><br><span class="line"><span class="built_in">cd</span> /mysqlbackup</span><br></pre></td></tr></table></figure>
-<p>编写shell脚本</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vi backup.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">dd=$(date +"%Y-%m-%d")</span><br><span class="line">usr/local/mysql/bin/mysqldump -uusername -ppassword databasename &gt;/mysqlbackup/$dd-databasename.sql;</span><br></pre></td></tr></table></figure>
+          <h4 id="创建备份目录"><a href="#创建备份目录" class="headerlink" title="创建备份目录"></a>创建备份目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mysqlbackup</span><br><span class="line"><span class="built_in">cd</span> /mysqlbackup</span><br></pre></td></tr></table></figure>
+<h4 id="编写shell脚本"><a href="#编写shell脚本" class="headerlink" title="编写shell脚本"></a>编写shell脚本</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vi backup.sh</span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">dd=$(date +"%Y-%m-%d")</span><br><span class="line">usr/local/mysql/bin/mysqldump -uusername -ppassword databasename &gt;/mysqlbackup/$dd-databasename.sql;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/09/16/MySql数据库每天定时自动备份/#more" rel="contents">
@@ -814,7 +810,7 @@
       
         
           
-            <p>同步Android源码清除缓存：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find .repo/ -name <span class="string">"*tmp_pack*"</span> | xargs rm -rvf</span><br></pre></td></tr></table></figure></p>
+            <h4 id="同步Android源码清除缓存："><a href="#同步Android源码清除缓存：" class="headerlink" title="同步Android源码清除缓存："></a>同步Android源码清除缓存：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find .repo/ -name <span class="string">"*tmp_pack*"</span> | xargs rm -rvf</span><br></pre></td></tr></table></figure>
 
           
         
@@ -987,7 +983,7 @@
       
         
           
-            <p>Win+R 运行regedit(注册表)<br>点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)</p>
+            <h4 id="Win-R-运行regedit-注册表"><a href="#Win-R-运行regedit-注册表" class="headerlink" title="Win+R 运行regedit(注册表)"></a>Win+R 运行regedit(注册表)</h4><p>点击HKEY_LOCAL_MACHINE/SYSTEM/CurrentConrtolset/Control/Terminal Server/Wds/rdpwd/Tds/tcp portNumber(远程端口号，默认3389)</p>
 
           
         
@@ -1121,7 +1117,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  92
+                  95
                 </span>
               
 
@@ -1159,7 +1155,8 @@
 
       
         
-          <p>centos7<br>1.通过防火墙<br>80端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure></p>
+          <h4 id="centos7"><a href="#centos7" class="headerlink" title="centos7"></a>centos7</h4><h4 id="1-通过防火墙"><a href="#1-通过防火墙" class="headerlink" title="1.通过防火墙"></a>1.通过防火墙</h4><p>80端口</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br></pre></td></tr></table></figure>
 <p>443端口<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=443/tcp --permanent</span><br></pre></td></tr></table></figure></p>
           <!--noindex-->
           <div class="post-button text-center">
@@ -1493,7 +1490,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">364</span>
+    <span title="Site words total count">365</span>
   
 </div>
 
