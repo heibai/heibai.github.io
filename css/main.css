@@ -1830,7 +1830,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a787b9;
+  background: #ffe504;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,7 +2696,7 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: 700px;
-  background: none;
+  background: #fff;
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -2715,9 +2715,6 @@ pre .javascript .function {
     min-height: auto;
     border-radius: initial;
   }
-}
-.content {
-  background: #fff;
 }
 .sidebar {
   position: static;
@@ -3061,13 +3058,6 @@ header.post-header {
   .post-body {
     text-align: justify;
   }
-}
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .github-corner :hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
