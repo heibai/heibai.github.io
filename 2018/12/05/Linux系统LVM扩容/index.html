@@ -85,18 +85,18 @@
 
 
 
-<meta name="description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表 1fdisk -l fdisk创建一个/dev/vda3分区 1fdisk /dev/vda3">
+<meta name="description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表1fdisk -l fdisk创建一个/dev/vda3分区1fdisk /dev/vda3">
 <meta name="keywords" content="lvm">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux系统LVM扩容">
 <meta property="og:url" content="heibai.site/2018/12/05/Linux系统LVM扩容/index.html">
 <meta property="og:site_name" content="Heibai&#39;s Blog">
-<meta property="og:description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表 1fdisk -l fdisk创建一个/dev/vda3分区 1fdisk /dev/vda3">
+<meta property="og:description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表1fdisk -l fdisk创建一个/dev/vda3分区1fdisk /dev/vda3">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-05T14:36:38.457Z">
+<meta property="og:updated_time" content="2018-12-05T14:39:51.764Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux系统LVM扩容">
-<meta name="twitter:description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表 1fdisk -l fdisk创建一个/dev/vda3分区 1fdisk /dev/vda3">
+<meta name="twitter:description" content="摘要： 前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下 查看分区列表1fdisk -l fdisk创建一个/dev/vda3分区1fdisk /dev/vda3">
 
 
 
@@ -429,7 +429,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  149
+                  145
                 </span>
               
 
@@ -468,25 +468,16 @@
       
         <p>摘要：</p>
 <p>前几天客户给了生产服务器，发现分区并没有要求的那么大，后来发现有硬盘没有分好区，系统lvm扩容步骤简要记录一下</p>
-<p>查看分区列表</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk -l</span><br></pre></td></tr></table></figure>
-<p>fdisk创建一个/dev/vda3分区</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk /dev/vda3</span><br></pre></td></tr></table></figure>
+<h5 id="查看分区列表"><a href="#查看分区列表" class="headerlink" title="查看分区列表"></a>查看分区列表</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk -l</span><br></pre></td></tr></table></figure>
+<h5 id="fdisk创建一个-dev-vda3分区"><a href="#fdisk创建一个-dev-vda3分区" class="headerlink" title="fdisk创建一个/dev/vda3分区"></a>fdisk创建一个/dev/vda3分区</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk /dev/vda3</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>重读分区</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">partprobe</span><br></pre></td></tr></table></figure>
-<p>格式化分区</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkfs -t ext4 /dev/vda3</span><br></pre></td></tr></table></figure>
-<p>创建一个PV物理卷：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pvcreate /dev/vda3</span><br></pre></td></tr></table></figure>
-<p>把PV物理卷加入到VG逻辑卷组里：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vgextend cl /dev/vda3</span><br></pre></td></tr></table></figure>
-<p>扩展LV逻辑卷的空间：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lvextend -l +100%FREE /dev/mapper/cl-root</span><br></pre></td></tr></table></figure>
-<p>刷新分区大小：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xfs_growfs  /dev/mapper/cl-root</span><br></pre></td></tr></table></figure>
-<p>查看分区</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -h</span><br></pre></td></tr></table></figure>
+<h5 id="重读分区"><a href="#重读分区" class="headerlink" title="重读分区"></a>重读分区</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">partprobe</span><br></pre></td></tr></table></figure>
+<h5 id="格式化分区"><a href="#格式化分区" class="headerlink" title="格式化分区"></a>格式化分区</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkfs -t ext4 /dev/vda3</span><br></pre></td></tr></table></figure>
+<h5 id="创建一个PV物理卷"><a href="#创建一个PV物理卷" class="headerlink" title="创建一个PV物理卷"></a>创建一个PV物理卷</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pvcreate /dev/vda3</span><br></pre></td></tr></table></figure>
+<h5 id="把PV物理卷加入到VG逻辑卷组里"><a href="#把PV物理卷加入到VG逻辑卷组里" class="headerlink" title="把PV物理卷加入到VG逻辑卷组里"></a>把PV物理卷加入到VG逻辑卷组里</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vgextend cl /dev/vda3</span><br></pre></td></tr></table></figure>
+<h5 id="扩展LV逻辑卷的空间"><a href="#扩展LV逻辑卷的空间" class="headerlink" title="扩展LV逻辑卷的空间"></a>扩展LV逻辑卷的空间</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lvextend -l +100%FREE /dev/mapper/cl-root</span><br></pre></td></tr></table></figure>
+<h5 id="刷新分区大小"><a href="#刷新分区大小" class="headerlink" title="刷新分区大小"></a>刷新分区大小</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xfs_growfs  /dev/mapper/cl-root</span><br></pre></td></tr></table></figure>
+<h5 id="查看分区"><a href="#查看分区" class="headerlink" title="查看分区"></a>查看分区</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df -h</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -602,8 +593,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -690,6 +690,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#查看分区列表"><span class="nav-number">1.</span> <span class="nav-text">查看分区列表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#fdisk创建一个-dev-vda3分区"><span class="nav-number">2.</span> <span class="nav-text">fdisk创建一个/dev/vda3分区</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#重读分区"><span class="nav-number">3.</span> <span class="nav-text">重读分区</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#格式化分区"><span class="nav-number">4.</span> <span class="nav-text">格式化分区</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#创建一个PV物理卷"><span class="nav-number">5.</span> <span class="nav-text">创建一个PV物理卷</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#把PV物理卷加入到VG逻辑卷组里"><span class="nav-number">6.</span> <span class="nav-text">把PV物理卷加入到VG逻辑卷组里</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#扩展LV逻辑卷的空间"><span class="nav-number">7.</span> <span class="nav-text">扩展LV逻辑卷的空间</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#刷新分区大小"><span class="nav-number">8.</span> <span class="nav-text">刷新分区大小</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#查看分区"><span class="nav-number">9.</span> <span class="nav-text">查看分区</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
