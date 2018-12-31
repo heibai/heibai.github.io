@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="https,Nginx," />
+  <meta name="keywords" content="Nginx,https," />
 
 
 
@@ -86,14 +86,14 @@
 
 
 <meta name="description" content="Https简介  HTTPS（全称：Hyper Text Transfer Protocol over Secure Socket Layer），是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。 它是一个URI scheme（抽象标识符体系），句法类同http:体系。用于安全的HTTP数据传输。http">
-<meta name="keywords" content="https,Nginx">
+<meta name="keywords" content="Nginx,https">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Nginx配置https">
 <meta property="og:url" content="heibai.site/2018/09/24/Nginx配置https/index.html">
 <meta property="og:site_name" content="Heibai&#39;s Blog">
 <meta property="og:description" content="Https简介  HTTPS（全称：Hyper Text Transfer Protocol over Secure Socket Layer），是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。 它是一个URI scheme（抽象标识符体系），句法类同http:体系。用于安全的HTTP数据传输。http">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-31T07:32:03.172Z">
+<meta property="og:updated_time" content="2018-12-31T07:51:48.263Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Nginx配置https">
 <meta name="twitter:description" content="Https简介  HTTPS（全称：Hyper Text Transfer Protocol over Secure Socket Layer），是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。 它是一个URI scheme（抽象标识符体系），句法类同http:体系。用于安全的HTTP数据传输。http">
@@ -429,7 +429,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  515
+                  523
                 </span>
               
 
@@ -477,6 +477,7 @@
 <p>/usr/local/nginx/sbin/nginx -t</p>
 <h5 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h5><p>1.防火墙443端口和80端口一定要打开</p>
 <p>2.配置443端口 要把80端口的网站根目录注释掉，不然配置好了就是nginx默认页面</p>
+<p>3.Nginx需要开启ssl模块</p>
 
       
     </div>
@@ -512,9 +513,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/https/" rel="tag"><i class="fa fa-tag"></i> https</a>
-          
             <a href="/tags/Nginx/" rel="tag"><i class="fa fa-tag"></i> Nginx</a>
+          
+            <a href="/tags/https/" rel="tag"><i class="fa fa-tag"></i> https</a>
           
         </div>
       
