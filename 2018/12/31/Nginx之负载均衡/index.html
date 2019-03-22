@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="heibai&#39;s blog">
 <meta property="og:description" content="概要：​    随着公司项目越来越大，流量也跟着越来越大，为了避免发生单点故障和系统的高性能，越来越多的网站架构都使用了负载均衡技术，这里简单记录一下Nginx负载均衡的配置方式。 什么是负载均衡   负载均衡是由多台服务器以对称的方式组成一个服务器集合，每台服务器都具有等价的地位，都可以单独对外提供服务而无须其他服务器的辅助。通过某种负载分担技术，将外部发送来的请求均匀分配到对称结构中的某一台服">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-31T07:19:53.131Z">
+<meta property="og:updated_time" content="2019-03-22T16:49:45.893Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Nginx之负载均衡">
 <meta name="twitter:description" content="概要：​    随着公司项目越来越大，流量也跟着越来越大，为了避免发生单点故障和系统的高性能，越来越多的网站架构都使用了负载均衡技术，这里简单记录一下Nginx负载均衡的配置方式。 什么是负载均衡   负载均衡是由多台服务器以对称的方式组成一个服务器集合，每台服务器都具有等价的地位，都可以单独对外提供服务而无须其他服务器的辅助。通过某种负载分担技术，将外部发送来的请求均匀分配到对称结构中的某一台服">
@@ -465,30 +465,41 @@
       <div>
       
         
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2018/12/31/Nginx之负载均衡/">Nginx之负载均衡</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 heibai 的个人博客">heibai</a></p>
+  <p><span>发布时间:</span>2018年12月31日 - 15:12</p>
+  <p><span>最后更新:</span>2019年03月23日 - 00:03</p>
+  <p><span>原始链接:</span><a href="/2018/12/31/Nginx之负载均衡/" title="Nginx之负载均衡">heibai.site/2018/12/31/Nginx之负载均衡/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="heibai.site/2018/12/31/Nginx之负载均衡/"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+	  $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+	    });
+    });  
+</script>
+
       
       </div>
     
 
     
 
-    
-      <div>
-        <ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者：</strong>
-    heibai
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="heibai.site/2018/12/31/Nginx之负载均衡/" title="Nginx之负载均衡">heibai.site/2018/12/31/Nginx之负载均衡/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-
-      </div>
     
 
     <footer class="post-footer">
