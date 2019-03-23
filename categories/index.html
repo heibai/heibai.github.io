@@ -81,7 +81,7 @@
     version: '7.0.1',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
-    back2top_sidebar: false,
+    back2top_sidebar: true,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -115,8 +115,6 @@
 <meta name="twitter:title" content="文章分类">
 <meta name="twitter:description" content="选择比努力更重要！">
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="heibai's blog" type="application/atom+xml">
@@ -640,6 +638,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -656,9 +661,10 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">true</span>
+  <span class="author" itemprop="copyrightHolder">heibai</span>
   <div class="theme-info">
-  <div class="powered-by"></div>
+  <div class="powered-by">
+  </div>
   <span class="post-count">博客全站共2.4k字</span>
 </div>
 
@@ -671,7 +677,7 @@
 <script>
     var now = new Date(); 
     function createtime() { 
-        var grt= new Date("08/10/2018 17:38:00");//在此处修改你的建站时间
+        var grt= new Date("04/13/2018 17:38:00");//在此处修改你的建站时间
         now.setTime(now.getTime()+250); 
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -734,11 +740,6 @@ setInterval("createtime()",250);
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
     
 
@@ -772,6 +773,9 @@ setInterval("createtime()",250);
 
 
 
+  
+  
+
 
 
 
@@ -788,6 +792,12 @@ setInterval("createtime()",250);
 
   
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/three/three.min.js"></script>
+
+  
+  <script src="/lib/three/canvas_lines.min.js"></script>
 
 
   
