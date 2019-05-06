@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>heibai.site/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/</loc>
+    <lastmod>2019-05-06</lastmod>
+  </url>  <url>
     <loc>heibai.site/2019/03/27/Shell%E8%84%9A%E6%9C%AC%E4%B8%80%E9%94%AE%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Mysql/</loc>
     <lastmod>2019-05-06</lastmod>
   </url>  <url>
@@ -23,9 +26,6 @@
     <lastmod>2019-03-22</lastmod>
   </url>  <url>
     <loc>heibai.site/2018/12/31/Nginx%E4%B9%8B%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</loc>
-    <lastmod>2019-03-22</lastmod>
-  </url>  <url>
-    <loc>heibai.site/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/</loc>
     <lastmod>2019-03-22</lastmod>
   </url>  <url>
     <loc>heibai.site/2018/12/05/Linux%E7%B3%BB%E7%BB%9FLVM%E6%89%A9%E5%AE%B9/</loc>
