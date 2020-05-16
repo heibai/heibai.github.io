@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>heibai&#39;s blog</title>
+  <title>柒小浪的blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="heibai.site/"/>
+  <link href="sswolf.cn/"/>
   <updated>2019-05-09T10:51:28.618Z</updated>
-  <id>heibai.site/</id>
+  <id>sswolf.cn/</id>
   
   <author>
-    <name>heibai</name>
+    <name>柒小浪</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Shell脚本一键编译安装Mysql</title>
-    <link href="heibai.site/2019/03/27/Shell%E8%84%9A%E6%9C%AC%E4%B8%80%E9%94%AE%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Mysql/"/>
-    <id>heibai.site/2019/03/27/Shell脚本一键编译安装Mysql/</id>
+    <link href="sswolf.cn/2019/03/27/Shell%E8%84%9A%E6%9C%AC%E4%B8%80%E9%94%AE%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Mysql/"/>
+    <id>sswolf.cn/2019/03/27/Shell脚本一键编译安装Mysql/</id>
     <published>2019-03-27T12:12:24.000Z</published>
     <updated>2019-05-09T10:51:28.618Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="Mysql" scheme="heibai.site/categories/Mysql/"/>
+      <category term="Mysql" scheme="sswolf.cn/categories/Mysql/"/>
     
     
-      <category term="Shell" scheme="heibai.site/tags/Shell/"/>
+      <category term="Shell" scheme="sswolf.cn/tags/Shell/"/>
     
-      <category term="脚本" scheme="heibai.site/tags/%E8%84%9A%E6%9C%AC/"/>
+      <category term="脚本" scheme="sswolf.cn/tags/%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
   <entry>
     <title>Jenkins+Git+Maven持续集成</title>
-    <link href="heibai.site/2019/03/24/Jenkins-Git-Maven%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
-    <id>heibai.site/2019/03/24/Jenkins-Git-Maven持续集成/</id>
+    <link href="sswolf.cn/2019/03/24/Jenkins-Git-Maven%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    <id>sswolf.cn/2019/03/24/Jenkins-Git-Maven持续集成/</id>
     <published>2019-03-24T03:38:33.000Z</published>
     <updated>2019-03-24T08:15:38.129Z</updated>
     
@@ -57,19 +57,19 @@
     
     </summary>
     
-      <category term="Jenkins" scheme="heibai.site/categories/Jenkins/"/>
+      <category term="Jenkins" scheme="sswolf.cn/categories/Jenkins/"/>
     
     
-      <category term="Jenkins" scheme="heibai.site/tags/Jenkins/"/>
+      <category term="Jenkins" scheme="sswolf.cn/tags/Jenkins/"/>
     
-      <category term="可持续集成" scheme="heibai.site/tags/%E5%8F%AF%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+      <category term="可持续集成" scheme="sswolf.cn/tags/%E5%8F%AF%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
   </entry>
   
   <entry>
     <title>Nginx之负载均衡</title>
-    <link href="heibai.site/2018/12/31/Nginx%E4%B9%8B%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
-    <id>heibai.site/2018/12/31/Nginx之负载均衡/</id>
+    <link href="sswolf.cn/2018/12/31/Nginx%E4%B9%8B%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+    <id>sswolf.cn/2018/12/31/Nginx之负载均衡/</id>
     <published>2018-12-31T07:04:17.000Z</published>
     <updated>2019-03-22T18:25:45.235Z</updated>
     
@@ -82,19 +82,19 @@
     
     </summary>
     
-      <category term="Nginx" scheme="heibai.site/categories/Nginx/"/>
+      <category term="Nginx" scheme="sswolf.cn/categories/Nginx/"/>
     
     
-      <category term="Nginx" scheme="heibai.site/tags/Nginx/"/>
+      <category term="Nginx" scheme="sswolf.cn/tags/Nginx/"/>
     
-      <category term="负载均衡" scheme="heibai.site/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+      <category term="负载均衡" scheme="sswolf.cn/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
     
   </entry>
   
   <entry>
     <title>Linux系统LVM扩容</title>
-    <link href="heibai.site/2018/12/05/Linux%E7%B3%BB%E7%BB%9FLVM%E6%89%A9%E5%AE%B9/"/>
-    <id>heibai.site/2018/12/05/Linux系统LVM扩容/</id>
+    <link href="sswolf.cn/2018/12/05/Linux%E7%B3%BB%E7%BB%9FLVM%E6%89%A9%E5%AE%B9/"/>
+    <id>sswolf.cn/2018/12/05/Linux系统LVM扩容/</id>
     <published>2018-12-05T14:14:16.000Z</published>
     <updated>2019-03-22T18:25:45.160Z</updated>
     
@@ -109,17 +109,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="heibai.site/categories/Linux/"/>
+      <category term="Linux" scheme="sswolf.cn/categories/Linux/"/>
     
     
-      <category term="lvm" scheme="heibai.site/tags/lvm/"/>
+      <category term="lvm" scheme="sswolf.cn/tags/lvm/"/>
     
   </entry>
   
   <entry>
     <title>Centos7编译安装MySql5.7</title>
-    <link href="heibai.site/2018/10/19/Centos7%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85MySql5-7/"/>
-    <id>heibai.site/2018/10/19/Centos7编译安装MySql5-7/</id>
+    <link href="sswolf.cn/2018/10/19/Centos7%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85MySql5-7/"/>
+    <id>sswolf.cn/2018/10/19/Centos7编译安装MySql5-7/</id>
     <published>2018-10-19T13:50:09.000Z</published>
     <updated>2019-03-27T13:07:40.570Z</updated>
     
@@ -132,17 +132,17 @@
     
     </summary>
     
-      <category term="MySql" scheme="heibai.site/categories/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/categories/MySql/"/>
     
     
-      <category term="MySql" scheme="heibai.site/tags/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/tags/MySql/"/>
     
   </entry>
   
   <entry>
     <title>Nginx配置https</title>
-    <link href="heibai.site/2018/09/24/Nginx%E9%85%8D%E7%BD%AEhttps/"/>
-    <id>heibai.site/2018/09/24/Nginx配置https/</id>
+    <link href="sswolf.cn/2018/09/24/Nginx%E9%85%8D%E7%BD%AEhttps/"/>
+    <id>sswolf.cn/2018/09/24/Nginx配置https/</id>
     <published>2018-09-24T02:58:56.000Z</published>
     <updated>2019-03-22T18:25:45.260Z</updated>
     
@@ -156,19 +156,19 @@
     
     </summary>
     
-      <category term="Nginx" scheme="heibai.site/categories/Nginx/"/>
+      <category term="Nginx" scheme="sswolf.cn/categories/Nginx/"/>
     
     
-      <category term="https" scheme="heibai.site/tags/https/"/>
+      <category term="Nginx" scheme="sswolf.cn/tags/Nginx/"/>
     
-      <category term="Nginx" scheme="heibai.site/tags/Nginx/"/>
+      <category term="https" scheme="sswolf.cn/tags/https/"/>
     
   </entry>
   
   <entry>
     <title>MySql保留最近5天备份</title>
-    <link href="heibai.site/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/"/>
-    <id>heibai.site/2018/09/16/MySql保留最近5天备份/</id>
+    <link href="sswolf.cn/2018/09/16/MySql%E4%BF%9D%E7%95%99%E6%9C%80%E8%BF%915%E5%A4%A9%E5%A4%87%E4%BB%BD/"/>
+    <id>sswolf.cn/2018/09/16/MySql保留最近5天备份/</id>
     <published>2018-09-16T07:15:43.000Z</published>
     <updated>2019-05-06T13:54:45.072Z</updated>
     
@@ -181,17 +181,17 @@
     
     </summary>
     
-      <category term="MySql" scheme="heibai.site/categories/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/categories/MySql/"/>
     
     
-      <category term="MySql" scheme="heibai.site/tags/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/tags/MySql/"/>
     
   </entry>
   
   <entry>
     <title>MySql数据库每天定时自动备份</title>
-    <link href="heibai.site/2018/09/16/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AF%8F%E5%A4%A9%E5%AE%9A%E6%97%B6%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD/"/>
-    <id>heibai.site/2018/09/16/MySql数据库每天定时自动备份/</id>
+    <link href="sswolf.cn/2018/09/16/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%AF%8F%E5%A4%A9%E5%AE%9A%E6%97%B6%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD/"/>
+    <id>sswolf.cn/2018/09/16/MySql数据库每天定时自动备份/</id>
     <published>2018-09-16T02:03:08.000Z</published>
     <updated>2019-03-23T07:21:46.972Z</updated>
     
@@ -204,17 +204,17 @@
     
     </summary>
     
-      <category term="MySql" scheme="heibai.site/categories/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/categories/MySql/"/>
     
     
-      <category term="MySql" scheme="heibai.site/tags/MySql/"/>
+      <category term="MySql" scheme="sswolf.cn/tags/MySql/"/>
     
   </entry>
   
   <entry>
     <title>同步Android源码清除缓存</title>
-    <link href="heibai.site/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
-    <id>heibai.site/2018/04/14/同步Android源码清除缓存/</id>
+    <link href="sswolf.cn/2018/04/14/%E5%90%8C%E6%AD%A5Android%E6%BA%90%E7%A0%81%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98/"/>
+    <id>sswolf.cn/2018/04/14/同步Android源码清除缓存/</id>
     <published>2018-04-14T03:03:58.000Z</published>
     <updated>2019-03-22T18:25:45.297Z</updated>
     
@@ -229,17 +229,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="heibai.site/categories/Linux/"/>
+      <category term="Linux" scheme="sswolf.cn/categories/Linux/"/>
     
     
-      <category term="Android" scheme="heibai.site/tags/Android/"/>
+      <category term="Android" scheme="sswolf.cn/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Windows 修改远程端口号</title>
-    <link href="heibai.site/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
-    <id>heibai.site/2018/04/14/Windows-修改远程端口号/</id>
+    <link href="sswolf.cn/2018/04/14/Windows-%E4%BF%AE%E6%94%B9%E8%BF%9C%E7%A8%8B%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+    <id>sswolf.cn/2018/04/14/Windows-修改远程端口号/</id>
     <published>2018-04-14T02:47:58.000Z</published>
     <updated>2019-03-22T18:25:45.288Z</updated>
     
@@ -254,17 +254,17 @@
     
     </summary>
     
-      <category term="Windows" scheme="heibai.site/categories/Windows/"/>
+      <category term="Windows" scheme="sswolf.cn/categories/Windows/"/>
     
     
-      <category term="Windows" scheme="heibai.site/tags/Windows/"/>
+      <category term="Windows" scheme="sswolf.cn/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>Linux防火墙</title>
-    <link href="heibai.site/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
-    <id>heibai.site/2018/04/14/Linux防火墙/</id>
+    <link href="sswolf.cn/2018/04/14/Linux%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    <id>sswolf.cn/2018/04/14/Linux防火墙/</id>
     <published>2018-04-14T02:05:39.000Z</published>
     <updated>2019-03-22T18:25:45.159Z</updated>
     
@@ -278,17 +278,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="heibai.site/categories/Linux/"/>
+      <category term="Linux" scheme="sswolf.cn/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="heibai.site/tags/Linux/"/>
+      <category term="Linux" scheme="sswolf.cn/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Hello World!</title>
-    <link href="heibai.site/2018/04/11/Hello-World-0/"/>
-    <id>heibai.site/2018/04/11/Hello-World-0/</id>
+    <link href="sswolf.cn/2018/04/11/Hello-World-0/"/>
+    <id>sswolf.cn/2018/04/11/Hello-World-0/</id>
     <published>2018-04-11T14:21:19.000Z</published>
     <updated>2019-03-22T18:25:45.153Z</updated>
     
