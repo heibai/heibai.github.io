@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>sswolf.cn/post/2020-07-03-MySql-master-slave/</loc>
+    
+    <lastmod>2020-07-04T06:21:07.964Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>sswolf.cn/post/2019-03-27-Shell%E8%84%9A%E6%9C%AC%E4%B8%80%E9%94%AE%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85Mysql/</loc>
     
     <lastmod>2020-07-04T06:05:06.949Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>sswolf.cn/Vmware/index.html</loc>
     
     <lastmod>2020-07-04T01:23:10.230Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>sswolf.cn/post/2020-07-03-MySql-master-slave/</loc>
-    
-    <lastmod>2020-07-04T01:09:29.225Z</lastmod>
     
   </url>
   
