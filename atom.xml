@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="sswolf.cn/"/>
-  <updated>2020-07-04T01:29:51.700Z</updated>
+  <updated>2020-07-04T01:34:44.137Z</updated>
   <id>sswolf.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="sswolf.cn/post/2020-07-04-virtualization/"/>
     <id>sswolf.cn/post/2020-07-04-virtualization/</id>
     <published>2020-07-04T01:18:03.000Z</published>
-    <updated>2020-07-04T01:29:51.700Z</updated>
+    <updated>2020-07-04T01:34:44.137Z</updated>
     
     <content type="html"><![CDATA[<p> Esxi主机开启ssh，修改 /etc/vmware/config 配置文件，在配置文件后面加入如下配置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vhv.enable = "TRUE"</span><br></pre></td></tr></table></figure><p>然后重启ESXI主机</p>]]></content>
     
@@ -39,6 +39,8 @@
     
     
       <category term="Vmware" scheme="sswolf.cn/tags/Vmware/"/>
+    
+      <category term="虚拟化" scheme="sswolf.cn/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
     
   </entry>
   
