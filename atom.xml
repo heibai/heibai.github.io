@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="sswolf.cn/"/>
-  <updated>2020-07-04T01:09:29.225Z</updated>
+  <updated>2020-07-04T01:27:31.942Z</updated>
   <id>sswolf.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="sswolf.cn/post/2020-07-04-virtualization/"/>
+    <id>sswolf.cn/post/2020-07-04-virtualization/</id>
+    <published>2020-07-04T01:18:03.907Z</published>
+    <updated>2020-07-04T01:27:31.942Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: Vmware开启嵌套虚拟化<br>copyright: true<br>tags: Vmware<br>abbrlink: 11395<br>date: 2020-07-04 09:18:03<br>categories:<br>—Vmware</p><p> Esxi主机开启ssh，修改 /etc/vmware/config 配置文件，在配置文件后面加入如下配置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vhv.enable = "TRUE"</span><br></pre></td></tr></table></figure><p>然后重启ESXI主机</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;p&gt;title: Vmware开启嵌套虚拟化&lt;br&gt;copyright: true&lt;br&gt;tags: Vmware&lt;br&gt;abbrlink: 11395&lt;br&gt;date: 2020-07-04 09:18:03&lt;br&gt;categories:&lt;br&gt;—Vmware&lt;/p
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Mysql5.7配置主从同步</title>
@@ -184,9 +206,9 @@
       <category term="Nginx" scheme="sswolf.cn/categories/Nginx/"/>
     
     
-      <category term="https" scheme="sswolf.cn/tags/https/"/>
-    
       <category term="Nginx" scheme="sswolf.cn/tags/Nginx/"/>
+    
+      <category term="https" scheme="sswolf.cn/tags/https/"/>
     
   </entry>
   
