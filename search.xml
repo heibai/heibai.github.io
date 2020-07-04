@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title></title>
+      <title>Vmware开启嵌套虚拟化</title>
       <link href="/post/2020-07-04-virtualization/"/>
       <url>/post/2020-07-04-virtualization/</url>
       
-        <content type="html"><![CDATA[<hr><p>title: Vmware开启嵌套虚拟化<br>copyright: true<br>tags: Vmware<br>abbrlink: 11395<br>date: 2020-07-04 09:18:03<br>categories:<br>—Vmware</p><p> Esxi主机开启ssh，修改 /etc/vmware/config 配置文件，在配置文件后面加入如下配置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vhv.enable = "TRUE"</span><br></pre></td></tr></table></figure><p>然后重启ESXI主机</p>]]></content>
+        <content type="html"><![CDATA[<p> Esxi主机开启ssh，修改 /etc/vmware/config 配置文件，在配置文件后面加入如下配置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vhv.enable = "TRUE"</span><br></pre></td></tr></table></figure><p>然后重启ESXI主机</p>]]></content>
       
       
+      <categories>
+          
+          <category> 虚拟化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vmware </tag>
+            
+        </tags>
       
     </entry>
     
